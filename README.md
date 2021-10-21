@@ -42,3 +42,11 @@ Something strange here `@sap/cds-compiler/lib/edm/edm.js`:
 ```javascript
         if(typecsn.type || typecsn['@odata.Type']) { // this thing has a type
 ```
+
+## Conclusiom
+Easy solution... the type must be specified during definition of the property, see commit:
+8d1e97a: Solution
+
+https://answers.sap.com/questions/13500064/metadata-type-attribute-on-property-is-missing.html?childToView=13499055
+Just recently we have raised this warning to an error which will be shipped in one of the next releases.
+
