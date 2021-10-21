@@ -45,7 +45,8 @@ Something strange here `@sap/cds-compiler/lib/edm/edm.js`:
 
 ## Conclusiom
 Easy solution... the type must be specified during definition of the property, see commit:
-8d1e97a: Solution
+
+[Solution](https://github.com/sbarzaghialteaup/test-type-view-fields/commit/8d1e97a6792eb2c4a3982e34eee08ad04ad034b4)
 
 https://answers.sap.com/questions/13500064/metadata-type-attribute-on-property-is-missing.html?childToView=13499055
 Just recently we have raised this warning to an error which will be shipped in one of the next releases.
