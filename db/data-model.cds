@@ -21,7 +21,7 @@ entity BooksTotalSales as
             Books.title as title,
             count(
                 Orders.value
-            )           as copiesSold,
+            )           as copiesSold : Integer,
     }
     group by
         Books.ID;
